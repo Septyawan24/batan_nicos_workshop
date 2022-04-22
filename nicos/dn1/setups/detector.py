@@ -1,0 +1,35 @@
+description = 'Single Counter Detector'
+
+group = 'lowlevel'
+
+devices = dict(
+	timer = device('nicos.devices.generic.VirtualTimer',
+	      description = 'Timer Device',
+	      visibility = (),
+	),
+	monitor = device('nicos.devices.generic.VirtualCounter',
+	      description = 'Monitor Detector',
+	      type = 'monitor',
+	      countrate = 100,
+#	      lowlevel = False,
+	),
+	counter = device('nicos.devices.generic.VirtualCounter',
+	      description = 'Main Detector',
+	      type = 'counter',
+	      countrate = 900,
+	      visibility = (),
+	),
+#	image = device('nicos.devices.generic.VirtualImage',
+#	      description = '2D Data Counter',
+#	      size = (128, 128),
+#	      lowlevel = True,
+#	),
+	det = device('nicos.devices.generic.Detector',
+	      description = 'Main Detector System',
+	      timers = ['timer'],
+	      monitors = ['monitor'],
+	      counters = ['counter'],
+#	      images = ['image'],
+#	      liveinterval = 1,
+	),
+)
