@@ -11,7 +11,7 @@ Repository ini digunakan untuk kepentingan Workshop  proses migrasi sistem kontr
 ### NICOS Folder
 
 * Instrument Setups
-* Propreitary Devices Class untuk fasilitas BATAN
+* Proprietary Devices Class untuk fasilitas BATAN
 
 ### EPICS Folder
 
