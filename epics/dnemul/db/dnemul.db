@@ -1,0 +1,31 @@
+record(ao, "dn1:epics_lib:RPow") {
+  field(DESC, "Reactor Power")
+}
+
+record(ao, "dn1:epics_lib:XPos") {
+  field(DESC, "X Motor Position")
+}
+
+record(ao, "dn1:epics_lib:YPos") {
+  field(DESC, "Y Motor Position")
+}
+
+record(ao, "dn1:epics_lib:ZPos") {
+  field(DESC, "Z Motor Position")
+}
+
+record(ao, "dn1:epics_lib:PhiPos") {
+  field(DESC, "Phi Motor Position")
+}
+
+record(ao, "dn1:epics_lib:KaiPos") {
+  field(DESC, "Kai Motor Position")
+}
+
+record(ao, "dn1:epics_lib:OmegaPos") {
+  field(DESC, "Omega Motor Position")
+}
+
+record(ao, "dn1:epics_lib:ChiPos") {
+  field(DESC, "Chi Motor Position")
+}

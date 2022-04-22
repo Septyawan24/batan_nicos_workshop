@@ -1,0 +1,28 @@
+dnemul_registerRecordDeviceDriver.o: \
+ dnemul_registerRecordDeviceDriver.cpp \
+ /home/kkpr/Apps/EPICS/epics-base/include/compilerDependencies.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/compiler/gcc/compilerSpecific.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/epicsStdlib.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/libComAPI.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/os/Linux/osdStrtod.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/epicsTypes.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/compilerDependencies.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/errMdef.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/iocsh.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/iocshRegisterCommon.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/dbCoreAPI.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/registryCommon.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/dbStaticLib.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/dbFldTypes.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/dbBase.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/ellLib.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/dbDefs.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/recSup.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/devSup.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/link.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/cantProceed.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/dbJLink.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/dbCoreAPI.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/registryRecordType.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/recSup.h \
+ /home/kkpr/Apps/EPICS/epics-base/include/shareLib.h

@@ -1,0 +1,3 @@
+epicsEnvSet("IOC","iocdnemul")
+epicsEnvSet("TOP","/home/kkpr/Apps/EPICS/dnemul")
+epicsEnvSet("EPICS_BASE","/home/kkpr/Apps/EPICS/epics-base")
